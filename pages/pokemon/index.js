@@ -18,7 +18,7 @@ export default function Home({ pokemons }) {
         <h1 className={styles.title}>
           POKEDEX
         </h1>
-        <p className={styles.description}>Gotta Catch 'Em All</p>
+        <p className={styles.description}>Gotta Catch &apos;Em All</p>
         <div className={styles.grid}>
           {pokemonBoxes}
         </div>
