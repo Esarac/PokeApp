@@ -17,7 +17,7 @@ export default function Pokemon({ pokemon }) {
       <main className={styles.main}>
         <h1 className={styles.title}>{pokemon.name.toUpperCase()}</h1>
         <p className={styles.description}>Pokedex number: {pokemon.id}</p>
-        <Image loader={({ src }) => src} height="200" width="200" src={"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + pokemon.id + ".png"} />
+        <Image alt={pokemon.name} loader={({ src }) => src} height="200" width="200" src={"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + pokemon.id + ".png"} />
         <div className={styles.grid}>
           <div className={styles.card}>
             <Link href={"/pokemon/" + (pokemon.id - 1)}>Back</Link>

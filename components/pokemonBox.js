@@ -10,7 +10,7 @@ export default function PokemonBox({ name, url }) {
             <div className={styles.card}>
                 <h1>{id}</h1>
                 <p>{name}</p>
-                <Image loader={({ src }) => src} height="200" width="200" src={"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + id + ".png"} />
+                <Image alt={name} loader={({ src }) => src} height="200" width="200" src={"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + id + ".png"} />
             </div>
         </Link>
     )
