@@ -21,7 +21,7 @@ export default function Home() {
           <div className={styles.card}>
             <Link href="/pokemon">
               <div>
-                <h2>Pokedex &rarr;</h2>
+                <h2>Pokedex</h2>
                 <p>Look at all the pokemons from the Pokemon universe.</p>
               </div>
             </Link>
