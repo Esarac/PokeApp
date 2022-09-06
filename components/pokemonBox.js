@@ -14,5 +14,4 @@ export default function PokemonBox({ name, url }) {
             </div>
         </Link>
     )
-
 }
